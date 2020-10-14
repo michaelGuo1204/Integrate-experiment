@@ -102,9 +102,10 @@
 \RequirePackage{titlesec,titletoc}
 
 % l10n here
-\renewcommand{\tablename}{表} 
-\renewcommand{\figurename}{图} 
-\renewcommand{\bibname}{\vskip -0.5em 参考文献}
+%\renewcommand{\tablename}{表} 
+%\renewcommand{\figurename}{图} 
+%\renewcommand{\bibname}{\vskip -0.5em 参考文献}
+\renewcommand{\bibname}{\vskip -0.5em References}
 \renewcommand\@biblabel[1]{{[#1]\hfill}}
 \renewcommand\contentsname{目\quad 录}
 \renewcommand\thefigure{% thanks to fitsir<at>gmail.com
