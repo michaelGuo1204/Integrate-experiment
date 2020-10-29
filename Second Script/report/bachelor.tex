@@ -49,6 +49,9 @@
 %\setdescription{itemsep=0pt,partopsep=0pt,parsep=\parskip,topsep=5pt}
 %插图
 \usepackage{graphicx}
+%单元格内强制换行
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\renewcommand{\arraystretch}{1.35}%调整矩阵行间距
 
 \begin{document}
 
