@@ -50,8 +50,10 @@
 %插图
 \usepackage{graphicx}
 %单元格内强制换行
-\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}#2\end{tabular}}
+\newcommand{\tabincell}[2]{\begin{tabular}{@{}#1@{}}\renewcommand{\arraystretch}{1.1}#2\end{tabular}}
 \renewcommand{\arraystretch}{1.35}%调整矩阵行间距
+\usepackage{soul}%高亮
+\usepackage{url}%参考
 
 \begin{document}
 
@@ -78,6 +80,8 @@
 
 %    \xjtubib{references}	
 	\bibliography{references}
+	
+	
 
 %    \xjtuappendix
 
